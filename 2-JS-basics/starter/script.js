@@ -104,6 +104,7 @@ console.log(typeof x);
  */
 
  // Multiple Assignments 
+ /* 
  var x, y; 
  x = y = (3 + 5) * 4 - 6; // 8 * 4 -6 // 32 - 6 // 26
  console.log(x, y);
@@ -113,3 +114,10 @@ console.log(typeof x);
  console.log(x);
  x += 10; 
  console.log(x);
+ x++;
+ console.log(x);
+ x--;
+ console.log(x);
+ */
+
+ 
