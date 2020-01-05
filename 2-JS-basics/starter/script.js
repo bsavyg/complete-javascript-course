@@ -120,4 +120,53 @@ console.log(typeof x);
  console.log(x);
  */
 
- 
+ /*********
+  * Coding Challenge 1 
+  */
+ /*
+  var massBlake = 95; //kg
+  var heightBlake = 1.91; // meters
+
+  var massCara = 65; //kg
+  var heightCara =  0.98; // meters
+
+  var BMIBlake = massBlake / (heightBlake * heightBlake);
+  var BMICara = massCara / (heightCara * heightCara);
+  
+  console.log(BMIBlake, " , ", BMICara);
+
+  var blakeHigherbvbBMI = BMIBlake > BMICara;
+  
+  console.log('Is Blake\'s BMI higher than Cara\'s ? ' + blakeHigherbvbBMI);
+*/
+
+var firstName = 'Blake';
+var civilStatus = 'married';
+
+if (civilStatus === 'single') { 
+    console.log(firstName + ' is single!');
+} else { 
+    console.log(firstName + ' is happily married!!')
+}
+
+var isMarried = true;
+if (isMarried) { 
+    console.log(firstName + ' is married!');
+} else { 
+    console.log(firstName + ' will hopefully marry soon');
+}
+
+var massBlake = 95; //kg
+var heightBlake = 1.91; // meters
+
+var massCara = 165; //kg
+var heightCara =  0.98; // meters
+
+var BMIBlake = massBlake / (heightBlake * heightBlake);
+var BMICara = massCara / (heightCara * heightCara);
+
+if (BMIBlake < BMICara) {
+    console.log( 'Blake BMI is greater than Cara ');
+} else {
+    console.log('Cara BMI is greater than Blakes');
+}
