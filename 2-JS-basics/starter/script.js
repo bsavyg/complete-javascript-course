@@ -140,33 +140,55 @@ console.log(typeof x);
   console.log('Is Blake\'s BMI higher than Cara\'s ? ' + blakeHigherbvbBMI);
 */
 
-var firstName = 'Blake';
-var civilStatus = 'married';
+// var firstName = 'Blake';
+// var civilStatus = 'married';
 
-if (civilStatus === 'single') { 
-    console.log(firstName + ' is single!');
-} else { 
-    console.log(firstName + ' is happily married!!')
-}
+// if (civilStatus === 'single') { 
+//     console.log(firstName + ' is single!');
+// } else { 
+//     console.log(firstName + ' is happily married!!')
+// }
 
-var isMarried = true;
-if (isMarried) { 
-    console.log(firstName + ' is married!');
-} else { 
-    console.log(firstName + ' will hopefully marry soon');
-}
+// var isMarried = true;
+// if (isMarried) { 
+//     console.log(firstName + ' is married!');
+// } else { 
+//     console.log(firstName + ' will hopefully marry soon');
+// }
 
-var massBlake = 95; //kg
-var heightBlake = 1.91; // meters
+// var massBlake = 95; //kg
+// var heightBlake = 1.91; // meters
 
-var massCara = 165; //kg
-var heightCara =  0.98; // meters
+// var massCara = 165; //kg
+// var heightCara =  0.98; // meters
 
-var BMIBlake = massBlake / (heightBlake * heightBlake);
-var BMICara = massCara / (heightCara * heightCara);
+// var BMIBlake = massBlake / (heightBlake * heightBlake);
+// var BMICara = massCara / (heightCara * heightCara);
 
-if (BMIBlake < BMICara) {
-    console.log( 'Blake BMI is greater than Cara ');
-} else {
-    console.log('Cara BMI is greater than Blakes');
-}
+// if (BMIBlake < BMICara) {
+//     console.log( 'Blake BMI is greater than Cara ');
+// } else {
+//     console.log('Cara BMI is greater than Blakes');
+// }
+
+// var firstName = 'Blake';
+// var age = 30; 
+
+// if (age < 18) {
+//     console.log(firstName + ' is still in his prime.');    
+// } else if (age >= 18 && age < 31) {
+//     console.log(firstName + ' is getting old.');
+// } else { 
+//     console.log(firstName + ' IS OLD!');
+// }
+/******************* 
+ * The Ternary Operator and Switch Statements
+ */
+
+ var firstName = 'Blake';
+ var age = 30;
+
+ age >= 21 ? console.log(firstName + ' drinks proseco!')
+ : console.log(firstName + ' drinks water.');
+ 
+ 
