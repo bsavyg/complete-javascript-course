@@ -204,37 +204,68 @@ console.log(typeof x);
 //  console.log(drink);
 
 //*********************** Switch Statement *****
-var firstName = 'Blake';
-var job = 'UI Designer';
-var age = 30;
+// var firstName = 'Blake';
+// var job = 'UI Designer';
+// var age = 30;
 
-switch (job) {
-  case 'designer':
-  case 'UI Designer':
-    console.log(firstName + ' designs to future of the world!');
-    break;
-  case 'developer':
-    console.log(firstName + ' develops the future of the world!');
-    break;
-  case 'Sys Admin':
-    console.log(firstName + ' Protects the future of the world!');
-    break;
-  default:
-    console.log(firstName + ' does other IT things!');    
-}
+// switch (job) {
+//   case 'designer':
+//   case 'UI Designer':
+//     console.log(firstName + ' designs to future of the world!');
+//     break;
+//   case 'developer':
+//     console.log(firstName + ' develops the future of the world!');
+//     break;
+//   case 'Sys Admin':
+//     console.log(firstName + ' Protects the future of the world!');
+//     break;
+//   default:
+//     console.log(firstName + ' does other IT things!');    
+// }
 
-switch (true) {
-  case age < 15:
-    console.log(firstName + ' is a boy.');
-    break;
-  case age > 15 && age < 20:
-    console.log(firstName + ' is a teen.');
-    break;
-  case age >= 20 && age < 30:
-    console.log(firstName + ' is a man.');
-    break; 
-    
+// switch (true) {
+//   case age < 15:
+//     console.log(firstName + ' is a boy.');
+//     break;
+//   case age > 15 && age < 20:
+//     console.log(firstName + ' is a teen.');
+//     break;
+//   case age >= 20 && age < 30:
+//     console.log(firstName + ' is a man.');
+//     break;     
+// }
+/**********************
+* Truthy and Falsy values and equality operators
+*/
+// falsy values: undefined, null, 0, '', NaN
+// truthy values: NOT falsy values
 
-    
-}
+// var height; 
+
+// height = 0; 
+
+//if (height || height === 0) {
+//   console.log('Variable is defined');  
+// } else {
+//   console.log('Variable has NOT been defined');  
+// }
+/******
+ * Coding Challenge 2
+ */
+
+//  var scoreJohn = (89 + 120 + 150) / 3;
+//  var scoreMike = (116 + 94 + 123) / 3;
+
+//  console.log('John score is ', scoreJohn);
+//  console.log('Mike score is ', scoreMike);
+
+//  if (scoreJohn > scoreMike) {
+//    console.log('John scored more/better than Mike with: ' + scoreJohn );   
+//  } else if (scoreMike > scoreJohn) {
+//    console.log('Mike scored more/better than John with: ' + scoreMike);   
+//  } else {
+//    console.log('Its a draw');   
+//  }
+ 
+
  
