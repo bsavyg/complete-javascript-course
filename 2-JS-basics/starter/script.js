@@ -199,7 +199,7 @@ console.log(typeof x);
 //  if (age >= 21) {
 //   var drink = 'prosseco';
 //  } else {
-//    var drinl = 'water';
+//    var drink = 'water';
 //  } 
 //  console.log(drink);
 
@@ -266,6 +266,62 @@ console.log(typeof x);
 //  } else {
 //    console.log('Its a draw');   
 //  }
- 
+
+/********
+* Functions
+*/
+// function KEYWORD, name of function, the arguments to pass into function, function block of code
+
+// function calculateAge(birthYear) {
+//   return 2020 - birthYear;
+// }
+
+// var ageBlake = calculateAge(1989);
+// var ageDevin = calculateAge(2000);
+// var ageCara = calculateAge(1950);
+// console.log(ageBlake, ageDevin, ageCara);
+// ^^^ Returned Function, Notice the Keyword ^^^
+
+// function yearsUntilRetirement(year, firstName) // defined the block with parameters
+// {
+//   var age = calculateAge(year);
+//   var retirement = 70 - age; 
+
+//   if (retirement > 0) {
+//     console.log(firstName + ' retires in ' + retirement + ' years.' ); 
+//   } else {
+//     console.log(firstName + ' is already retired.');    
+//   }   
+// }
+
+// yearsUntilRetirement(1989, 'Blake'); // defined parameters for defined function 
+// yearsUntilRetirement(1990, 'Cara');
+// yearsUntilRetirement(1949, 'Devin');
+
+/*************************************
+ * Function Statements and Expressions
+ */
+
+ //Function declaration example: 
+ // function whatDoYouDo(job, FirstName){}
+
+ // Function Expression 
+ var whatDoYouDo = function(job, firstName) {
+    switch(job) {
+      case 'Developer':
+        return firstName + ' codes the world';
+      case 'Designer':
+        return firstName + ' makes applications look good';
+      case 'Tech':
+        return firstName + ' maintains all the Tech';
+      default:
+        return firstName + ' does something else';
+    }
+ }
+
+ whatDoYouDo('Developer', 'Blake');
+
+
+
 
  
