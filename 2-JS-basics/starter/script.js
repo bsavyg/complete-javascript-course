@@ -306,20 +306,94 @@ console.log(typeof x);
  // function whatDoYouDo(job, FirstName){}
 
  // Function Expression 
- var whatDoYouDo = function(job, firstName) {
-    switch(job) {
-      case 'Developer':
-        return firstName + ' codes the world';
-      case 'Designer':
-        return firstName + ' makes applications look good';
-      case 'Tech':
-        return firstName + ' maintains all the Tech';
-      default:
-        return firstName + ' does something else';
-    }
- }
+//  var whatDoYouDo = function(job, firstName) {
+//     switch(job) {
+//       case 'Developer':
+//         return firstName + ' codes the world';
+//       case 'Designer':
+//         return firstName + ' makes applications look good';
+//       case 'Tech':
+//         return firstName + ' maintains all the Tech';
+//       default:
+//         return firstName + ' does something else';
+//     }
+//  }
 
- whatDoYouDo('Developer', 'Blake');
+// console.log(whatDoYouDo('Designer', 'Blake'));
+// console.log(whatDoYouDo('Tech', 'Devin'));
+// console.log(whatDoYouDo('Retired', 'Frank'));
+
+/***********************
+* Arrays
+*/
+
+// Init of new Array
+// var names = ['Blake', 'Cara', 'Devin'];
+// var years = new Array(1989, 1992, 1990);
+
+// console.log(names.length);
+// console.log(names[2]);
+
+// Mutate array data
+// names[1] = 'DeMillo';
+// names[names.length] = 'Cara';
+// console.log(names);
+
+// Different data types
+// var blake = ['Blake', 'Grant', 1989, 'designer', true];
+
+// blake.push('orange'); // adds at the end of Array list 
+// blake.unshift('Mr.'); //adds at the beginning of Array list
+// console.log(blake);
+
+// blake.pop(); // removes last item of Array list 
+// blake.pop();
+// blake.shift(); /// removes first element from array list
+// console.log(blake);
+
+// console.log(blake.indexOf(1989)); // place within Array list 
+// console.log(blake.indexOf(1995)); // will render -1; good way to test if element is part of Array list 
+
+// var isDesigner = blake.indexOf('designer') === -1 ? 'Blake is NOT a designer' : 'Blake IS a designer';
+// console.log(isDesigner);
+
+/*****************************
+ * Coding Challenge 3
+ */
+
+//  function tipCal(bill) {
+//   var percentage;
+//     if(bill < 50) {
+//       percentage = .2;
+//     } else if ( bill >= 50 && bill < 200) {
+//       percentage = .15;
+//     } else {
+//       percentage = .1;
+//     }
+//    return percentage * bill;   
+//  }
+//  console.log(tipCal(10));
+
+//  var bills = [124, 48, 268];
+//  var tips = [tipCal(bills[0]),
+//              tipCal(bills[1]),
+//              tipCal(bills[2])];
+
+//  var finalValue = [bills[0] + tips[0],
+//                    bills[1] + tips[1],
+//                    bills[2] + tips[2],
+// ]            
+//  console.log(bills, tips, finalValue);
+
+ 
+
+
+
+
+
+
+
+
 
 
 
