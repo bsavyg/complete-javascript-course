@@ -384,6 +384,127 @@ console.log(typeof x);
 //                    bills[2] + tips[2],
 // ]            
 //  console.log(bills, tips, finalValue);
+/************************
+ * Objects and properties 
+ */
+
+  //Object literal 
+//  var blake = {          
+//     fName: 'Blake',
+//     lName: 'Grant',
+//     birthYear: 1989,
+//     family : [
+//       'Cara', 
+//       'Devin',
+//       'Frank',
+//       'Pam'],
+//     job: 'Developer',
+//     isMarried: true
+//  };
+//  console.log(blake.fName);    // dot.notation
+//  console.log(blake['job']);   // array retrivial 
+//  var x = 'birthYear'; // variable creation 
+//  console.log(blake[x]);
+ 
+//  console.log(blake);
+
+//  blake.job = 'designer';    // Data mutation
+//  blake['isMarried'] = false;
+//  console.log(blake);
+ 
+ // new Object syntax 
+//  var cara = new Object();
+//  cara.fname = 'Cara';
+//  cara.birthYear = 1990;
+//  cara['lName'] = 'DeMillo';
+
+//  console.log(cara);
+ 
+/*******************************
+ * Objects and Methods
+ */
+// var blake = {          
+//     fName: 'Blake',
+//     lName: 'Grant',
+//     birthYear: 1989,
+//     family : [
+//       'Cara', 
+//       'Devin',
+//       'Frank',
+//       'Pam'],
+//     job: 'Developer',
+//     isMarried: true,
+//     calcAge: function() {
+//       this.age = 2020 - this.birthYear;
+//     }
+//   };
+
+// blake.calcAge();
+// console.log(blake);
+
+/************************************************************************
+ * Coding Challenge 4
+ */
+// var blake = {
+//   firstName: 'Blake',
+//   lastName: 'Grant',
+//   height: '2.25',
+//   mass: '100',
+//   bmi: function () {
+//     this.bmi = this.mass / (this.height * this.height)
+//   }
+// };
+
+// var devin = {
+//   firstName: 'Devin',
+//   lastName: 'Mosley',
+//   height: '1.88',
+//   mass: '80', 
+//   bmi: function () {
+//     this.bmi = this.mass / (this.height * this.height)
+//   }
+// };
+
+// blake.bmi();
+// devin.bmi();
+
+// if (blake.bmi > devin.bmi) {
+//   console.log('Blake is fatter than Devin with a BMI of ' + blake.bmi);  
+// } else {
+//   console.log('Devin is fatter than Blake with a BMI of ' + devin.bmi);  
+// }
+
+/******************************************************************
+ * Loops and iteration
+ */
+for (var i = 1; i <= 20; i += 2) {
+  console.log(i);  
+}
+// i = 0, 0 < 10 true, log i to console, i ++ 
+// i = 1, 1 < 10 true, log i to console, i ++
+//....
+// i = 9, 9 < 10 true, log i to console, i ++
+// i = 10, 10 < 10 false, exit the loop
+
+var blake = ['Blake', 'Grant', 1989, 'designer', true, 'orange'];
+for (var i = 0; i < blake.length; i++){
+  console.log(blake[i]);  
+}
+
+// while loop 
+var i = 0;
+while(i < blake.length) {
+  console.log(blake[i]);
+  i++;  
+}
+
+// continue and break statements 
+
+
+
+
+  
+ 
 
  
 
